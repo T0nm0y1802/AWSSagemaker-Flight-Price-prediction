@@ -1,6 +1,4 @@
-Sure, here's a README file specifically tailored for hosting on GitHub:
 
----
 
 # Flight Price Prediction
 
