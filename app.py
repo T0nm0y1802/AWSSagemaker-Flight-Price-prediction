@@ -268,7 +268,7 @@ preprocessor = Pipeline(steps=[
     ("selector", selector)
 ])
 
-path=r"D:\DS_ML\Flight-AWS_sagemaker_project\Data\train.csv"
+path=r"D:\DS_ML\\Flight-AWS_sagemaker_project\Data\\train.csv"
 train=pd.read_csv(path)
 X_train=train.drop(columns="price")
 y_train=train.price.copy()
