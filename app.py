@@ -1,4 +1,6 @@
+import os
 import numpy as np
+
 import pandas as pd
 import joblib
 import pickle
@@ -268,8 +270,8 @@ preprocessor = Pipeline(steps=[
     ("selector", selector)
 ])
 
-path=r"D:\DS_ML\\Flight-AWS_sagemaker_project\Data\\train.csv"
-train=pd.read_csv(path)
+dir_path=r"D:\DS_ML\Flight-AWS_sagemaker_project\Data"
+train=pd.read_csv(os.path.join(dir_path,"train.csv"))
 X_train=train.drop(columns="price")
 y_train=train.price.copy()
 
