@@ -100,10 +100,4 @@ To run the Streamlit app locally:
 
 3. Open your web browser and go to `http://localhost:8501`.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the content, especially the repository URL, your GitHub username, and other specific details related to your project. If you have any additional files or directories, such as `data`, `models`, or `scripts`, you can also include those in the README file as needed.
+live link-> https://flight-price-predictor-on-aws-sagemaker.streamlit.app/
